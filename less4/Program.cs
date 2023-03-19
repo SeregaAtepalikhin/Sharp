@@ -7,6 +7,8 @@ int A = int.Parse(Console.ReadLine());
 Console.WriteLine("введите число B: ");
 int B = int.Parse(Console.ReadLine());
 
+
+
 int result = 1;
 for (int i = 1; i <= B; i++)
 {
@@ -14,16 +16,39 @@ for (int i = 1; i <= B; i++)
 }
 Console.WriteLine(result);
 */
-
-
-
-
 /*
 Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
-
 452 -> 11
-
 82 -> 10
-
 9012 -> 12
+*/
+
+Console.WriteLine("введите число : ");
+
+int N = int.Parse(Console.ReadLine());
+int length = 0;
+int n = 0;
+
+while (N > 0)
+{
+  n = N % 10;
+  length = length + n;
+  N = N / 10;
+}
+Console.WriteLine(length);
+
+/*
+int N;
+Console.Write($"enter num: ");
+int.TryParse(Console.ReadLine(), out N);
+
+Console.Write($"{N} -> {sum(N)}");
+
+int sum = 0;
+for (int i = 1; i <= N; i++)
+{
+  sum += N % 10;
+  N /= 10;
+}
+
 */
