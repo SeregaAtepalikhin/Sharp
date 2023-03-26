@@ -23,6 +23,7 @@ Console.WriteLine(result);
 9012 -> 12
 */
 
+/*
 Console.WriteLine("введите число : ");
 
 int N = int.Parse(Console.ReadLine());
@@ -37,6 +38,7 @@ while (N > 0)
 }
 Console.WriteLine(length);
 
+*/
 /*
 int N;
 Console.Write($"enter num: ");

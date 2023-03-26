@@ -29,27 +29,33 @@ Console.WriteLine($"Количество четных чисел: " + chet);
 [3, 7, 23, 12] -> 19
 [-4, -6, 89, 6] -> 0
 */
+/*
 Console.WriteLine($"Задайте размер массива");
 int size = int.Parse(Console.ReadLine())!;
 int[] array = new int[size];
 int sum = 0;
 for (int i = 0; i < array.Length; i++)
 {
-  array[i] = new Random().Next(10, 100);
+  array[i] = new Random().Next(-10, 100);
   Console.Write(array[i] + " ");
 }
 Console.WriteLine();
 
-for (int i = 1; i < array.Length; i = 2)
+for (int i = 1; i < array.Length; i += 2)
 {
-    sum += array[i];
+  sum += array[i];
 }
 Console.WriteLine(sum);
 
-
+*/
 
 /*
 Задача 38: Задайте массив вещественных чисел. 
 Найдите разницу между максимальным и минимальным элементов массива.
 [3 7 22 2 78] -> 76
 */
+Console.WriteLine($"Задайте размер массива");
+int size = int.Parse(Console.ReadLine())!;
+double[] array = {size};
+
+
