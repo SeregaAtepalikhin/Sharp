@@ -54,7 +54,7 @@ Console.WriteLine(sum);
 Найдите разницу между максимальным и минимальным элементов массива.
 [3 7 22 2 78] -> 76
 */
-/*
+
 Console.WriteLine("задайте размер массива  ");
 int size = int.Parse(Console.ReadLine()!);
 double[] num = new double[size];
@@ -95,4 +95,3 @@ void PrintArray(double[] num)
   Console.WriteLine();
 }
 
-*/
