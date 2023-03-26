@@ -54,8 +54,46 @@ Console.WriteLine(sum);
 Найдите разницу между максимальным и минимальным элементов массива.
 [3 7 22 2 78] -> 76
 */
-Console.WriteLine($"Задайте размер массива");
-int size = int.Parse(Console.ReadLine())!;
-double[] array = {size};
+Console.WriteLine("задайте размер массива  ");
+int size = int.Parse(Console.ReadLine()!);
+double[] num = new double[size];
+FillArrayRandomNumbers(num);
+Console.WriteLine("массив: ");
+PrintArray(num);
+double min = Int32.MaxValue;
+double max = Int32.MinValue;
+
+for (int i = 0; i < num.Length; i++)
+{
+  if (num[i] > max)
+  {
+    max = num[i];
+  }
+  if (num[i] < min)
+  {
+    min = num[i];
+  }
+}
+
+Console.WriteLine($"Разница между MAX и MIN значением = {max - min}");
+
+void FillArrayRandomNumbers(double[] num)
+{
+  for (int i = 0; i < num.Length; i++)
+  {
+    num[i] = Convert.ToDouble(new Random().Next(100, 1000)) / 100;
+  }
+}
+void PrintArray(double[] num)
+{
+  Console.Write("[ ");
+  for (int i = 0; i < num.Length; i++)
+  {
+    Console.Write(num[i] + " ");
+  }
+  Console.Write("]");
+  Console.WriteLine();
+}
+
 
 
