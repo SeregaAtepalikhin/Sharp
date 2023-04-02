@@ -1,0 +1,15 @@
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\less7.csproj.AssemblyReference.cache
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\less7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\less7.AssemblyInfoInputs.cache
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\less7.AssemblyInfo.cs
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\less7.csproj.CoreCompileInputs.cache
+C:\Users\папа\Desktop\visual\DZ\less7\bin\Debug\net6.0\less7.exe
+C:\Users\папа\Desktop\visual\DZ\less7\bin\Debug\net6.0\less7.deps.json
+C:\Users\папа\Desktop\visual\DZ\less7\bin\Debug\net6.0\less7.runtimeconfig.json
+C:\Users\папа\Desktop\visual\DZ\less7\bin\Debug\net6.0\less7.dll
+C:\Users\папа\Desktop\visual\DZ\less7\bin\Debug\net6.0\less7.pdb
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\less7.dll
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\refint\less7.dll
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\less7.pdb
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\less7.genruntimeconfig.cache
+C:\Users\папа\Desktop\visual\DZ\less7\obj\Debug\net6.0\ref\less7.dll

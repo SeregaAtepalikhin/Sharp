@@ -47,3 +47,6 @@ double y = k1 * (b2 - b1) / (k1 - k2) + b1;
 Console.WriteLine($"прямые пересекутся в точке: x= {x}, y= {y} ");
 
 */
+
+
+
